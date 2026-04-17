@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #941010; 
+    padding: 15px 30px;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 3px solid #ffffff;
+    width: 600px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card img{
+    width: 500px;
+    height: 600px;
+}
